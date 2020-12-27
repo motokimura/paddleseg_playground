@@ -14,7 +14,7 @@ services:
       - ./output:/paddleseg/output
       - ./data:/paddleseg/data
     ports:
-      - 8080:8080  # VisualDL
+      - 8040:8040  # VisualDL
 
   # PaddleSeg with CUDA=10.2 CUDNN=7
   paddleseg_cuda10:
@@ -30,4 +30,4 @@ services:
       - ./output:/paddleseg/output
       - ./data:/paddleseg/data
     ports:
-      - 8080:8080  # VisualDL
+      - 8040:8040  # VisualDL
