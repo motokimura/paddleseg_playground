@@ -3,6 +3,16 @@
 This repository provides Docker environment with which
 you can play around with [PaddleSeg framework](https://github.com/PaddlePaddle/PaddleSeg).
 
+## Requirements
+
+- Ubuntu OS (tested with Ubuntu 20.04 LTS)
+- NVIDIA Driver (tested with 455.32.00)
+- Docker (tested with 19.03.12)
+- Docker Compose (tested with 1.27.4)
+- NVIDIA Container Tookit (tested with 2.4.0)
+
+May work with other versions.
+
 ## Setup
 
 Prepare the container with CUDA 11.0:
